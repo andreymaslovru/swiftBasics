@@ -1,0 +1,25 @@
+import UIKit
+
+for k in 0...10 {
+    for _ in 0...k {
+        print(terminator:"*")
+    }
+    print("")
+}
+
+func calc(number n: Int) -> (n: Int, sum: Int) {
+    let sum = 1
+    return (n, sum)
+}
+
+print(calc(number: 2).sum)
+
+let (num, sum) = calc(number: 101)
+print(num)
+print(sum)
+ 
+
+func test1(number: Int) -> Int {
+    return number
+}
+print(test1(number: 12111))
